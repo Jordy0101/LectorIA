@@ -1,0 +1,8 @@
+[Unit]
+Description=Launcher GeminiUNL
+
+[Service]
+ExecStart=/home/unl2024/bash/start.sh
+
+[Install]
+WantedBy= multi-user.target
